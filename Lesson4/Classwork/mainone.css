@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: cornflowerblue;
+    height: 1200px;
+}
+.border {
+    width: 1400px;
+    margin: 0 auto;
+    border: 10px solid #1bdb8b;
+    border-radius: 40px;
+    margin-top: 30px;
+}
+.content1 {
+    display: flex;
+    justify-content: center;
+    column-gap: 20px;
+}
+.block1 {
+    width: 250px;
+}
+.block2, .block5 {
+    width: 150px;
+}
+.block1, .block2, .block5{
+    height: 20px;
+    background: #d558c9;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 15px;
+}
+.content2, .content3 {
+    display: flex;
+    justify-content: space-evenly;
+}
+.block3 {
+    width: 300px;
+    height: 300px;
+    background: #db6c34;
+}
+.block4{
+    display: flex;
+    column-gap: 15px;
+}
+
+.father {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    background: blue;
+}
+.target {
+    margin-top: 60px;
+    margin-bottom: 60px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 25px;
+}
+.kolo {
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    background: #d9d3db;
+    margin-left: 15px;
+    margin-top: 20px;
+}
+.kolotarget{
+    display: flex;
+    column-gap: 30px;
+}
+.kolotarget1 {
+    height: 20px;
+    width: 150px;
+    background: red;
+}
+.kolotarget2 {
+    height: 20px;
+    width: 90px;
+    background: #a0db17;
+}
+.kolotarget > .kolotarget2 {
+    margin-bottom: 30px;
+}
+.target:hover {
+    border: 5px solid #2c7bdb;
+    background: green;
+    border-radius: 25px;
+    transition: 0.4s;
+}
