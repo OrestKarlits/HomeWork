@@ -261,10 +261,10 @@ body {
     background: olive;
 }
 .headerfifeblockfifecontentblockadd {
-    width: 110px;
+    width: 80px;
 }
 .headerfifeblockfifecontentblockodd {
-    width: 55px;
+    width: 35px;
 }
 .headerfifeblockfife {
     margin-bottom: 35px;
@@ -277,8 +277,8 @@ body {
     border-top: 5px solid red;
 }
 .headerfifeblocksixcontentleft {
-    height: 35px;
-    width: 150px;
+    height: 25px;
+    width: 100px;
     background: darkslateblue;
     border-radius: 25px;
 }
@@ -287,8 +287,8 @@ body {
     column-gap: 10px;
 }
 .headerfifeblocksixcontentrightblock {
-    height: 35px;
-    width: 50px;
+    height: 25px;
+    width: 40px;
     background: darkkhaki;
     border-radius: 50%;
 }
