@@ -37,11 +37,11 @@
     .header_top {
         justify-content: flex-start;
         margin-left: 15px;
+        width: 385px;
     }
     .header_content-flex,
     .header_content,
     .content_one,
-    .content_two-slider,
     .content_two-nav-item {
         width: 400px;
     }
@@ -118,9 +118,11 @@
     .content_one-slider img {
         width: 370px;
     }
-    .content_two-slider-one,
-    .content_two-slider-two {
+    .content_two-slider-one {
         width: 250px;
+        height: 126px;
+    }
+    .content_two-slider-two{
         height: 126px;
     }
     .content_two-slider-one-text-three {
