@@ -792,7 +792,12 @@ column-gap: 20px;
 }
 .wrap {
     display: flex;
+    column-gap: 135px;
 }
+.wrap2 {
+    display: flex;
+}
+
 .footer_content-right-one-one {
     width: 97px;
     height: 21px;
