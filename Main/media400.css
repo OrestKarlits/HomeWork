@@ -38,8 +38,18 @@
         justify-content: flex-start;
         margin-left: 15px;
     }
-    .header_content-flex {
+    .header_content-flex,
+    .header_content,
+    .content_one,
+    .content_two-slider,
+    .content_two-nav-item {
         width: 400px;
+    }
+    .content_one-slider {
+        width: 385px;
+    }
+    .footer_content-mail {
+        width: 380px;
     }
     .header_top__left {
         column-gap: 15px;
@@ -268,7 +278,7 @@
         justify-content: flex-start;
     }
     .footer_content-left-item-ten {
-        margin-left: 13px;
+        margin-left: 10px;
     }
 
 }
